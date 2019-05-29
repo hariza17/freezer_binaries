@@ -1,0 +1,10 @@
+#!/usr/local/bin/python3.6
+# PBR Generated from 'console_scripts'
+
+import sys
+
+from freezer.scheduler.freezer_scheduler import main
+
+
+if __name__ == "__main__":
+    sys.exit(main())
